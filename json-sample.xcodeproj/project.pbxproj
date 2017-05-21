@@ -12,6 +12,7 @@
 		587F437B1ED1FED8008D1A62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 587F43791ED1FED8008D1A62 /* Main.storyboard */; };
 		587F437D1ED1FED8008D1A62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 587F437C1ED1FED8008D1A62 /* Assets.xcassets */; };
 		587F43801ED1FED8008D1A62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 587F437E1ED1FED8008D1A62 /* LaunchScreen.storyboard */; };
+		587F43881ED20795008D1A62 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587F43871ED20795008D1A62 /* Weather.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		587F437C1ED1FED8008D1A62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		587F437F1ED1FED8008D1A62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		587F43811ED1FED8008D1A62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		587F43871ED20795008D1A62 /* Weather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				587F437C1ED1FED8008D1A62 /* Assets.xcassets */,
 				587F437E1ED1FED8008D1A62 /* LaunchScreen.storyboard */,
 				587F43811ED1FED8008D1A62 /* Info.plist */,
+				587F43871ED20795008D1A62 /* Weather.swift */,
 			);
 			path = "json-sample";
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			files = (
 				587F43781ED1FED8008D1A62 /* ViewController.swift in Sources */,
 				587F43761ED1FED8008D1A62 /* AppDelegate.swift in Sources */,
+				587F43881ED20795008D1A62 /* Weather.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +269,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = W8TNV9SRPE;
 				INFOPLIST_FILE = "json-sample/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.marvinmessenzehl.json-sample";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -278,6 +283,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = W8TNV9SRPE;
 				INFOPLIST_FILE = "json-sample/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.marvinmessenzehl.json-sample";
 				PRODUCT_NAME = "$(TARGET_NAME)";
