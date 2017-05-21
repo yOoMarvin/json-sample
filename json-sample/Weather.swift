@@ -58,6 +58,8 @@ struct Weather {
                 }catch {
                     print(error.localizedDescription)
                 }
+                
+                completion(forecastArray)
             }
         }
         
